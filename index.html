@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>TRAVEL</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="css/style.css" rel="stylesheet">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <!----navbar----->
+        <nav class="navbar">
+            <h1 class="logo">EXPLORE</h1>
+            <ul class="nav-link">
+                <li class="active"><a href="#"></a>Home</li>
+                <li><a href="#"></a>Tours</li>
+                <li><a href="#"></a>Explore</li>
+                <li><a href="#"></a>About</li>
+                <li class="ctn"><a href="#"></a>Contact</li>
+            </ul>
+            <img src="/images/mainimage.jpg" alt="" class="menu-btn">
+        </nav>
+        <header>
+            <div class="headerpart">
+                <h2>Travel far enough, you meet yourself...</h2>
+                <div class="line"></div>
+                <h1>Explore The World</h1>
+                <a href="#" class="ctn">Explore More</a>
+            </div>
+        </header>
+        <!---events----->
+        <section class="events">
+            <div class="title">
+                <h1>Upcomming Events</h1>
+                <div class="line"></div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <img src="/images/two.jpg" alt="">
+                    <h4>Trucking Destinations</h4>
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,</p>
+                    <a href ="#" class="ctn">Learn More</a>
+                </div>
+                <div class="col">
+                    <img src="/images/women.jpg" alt="">
+                    <h4>Enjoy Your Holidays</h4>
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,</p>
+                    <a href ="#" class="ctn">Learn More</a>
+                </div>
+            </div>
+        </section>
+        <section class="explore">
+            <div class="explore-content">
+            <h1>EXPLORE THE WORLD</h1>
+            <div class="line"></div>
+            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+            <a href="#" class="ctn">Learn more</a>
+            </div>
+        </section>
+        <section class="tours">
+            <div class="row">
+                <div class="col content-col">
+                    <h1>UPCOMMING TOURS & DESTINATIONS</h1>
+                    <div class="line"></div>
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
+                    <a href="#" class="ctn">Learn More</a>
+                </div>
+                <div class="col image-col">
+                    <div class="image-gallery">
+                    <img src="images/this2.jpg" alt="">
+                    <img src="images/main2.jpg" alt="">
+                    <img src="images/six.jpg" alt="">
+                    <img src="images/this1.jpg" alt="">
+                    </div>
+
+                </div>
+            </div>
+        </section>
+        <section class="footer">
+            <p>123 block  | Phone:100-2000-300 | Email:abc@mail.com</p>
+            <p>Copyright @ 2021 Adventure</p>
+        </section>
+        <script>
+            const menuBtn = document.querySelector('.menu-btn')
+            const navlinks = document.querySelector('.nav-link')
+            menuBtn.addEventListener('click',()=>{
+                navlinks.classList.toggle('mobile-menu')
+            })
+        </script>
+    
+    </body>
+</html>
